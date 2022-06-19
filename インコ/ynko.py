@@ -3,7 +3,6 @@ def func2():
     # Script2.py executed as script
     # do something
 
-
 def bot():
     import os
     print(os.getcwd())
@@ -16,6 +15,9 @@ def bot():
     import asyncio
     import requests, bs4
     import sys
+    from ynko.ynko import ynko
+
+    ynko.func2()
 
     # 自分のBotのアクセストークンに置き換えてください
     # 読込むファイルのパスを宣言する
@@ -1096,3 +1098,4 @@ def bot():
 
     # Botの起動とDiscordサーバーへの接続
     client.run(data)
+
