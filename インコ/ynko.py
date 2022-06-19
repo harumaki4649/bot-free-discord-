@@ -15,9 +15,7 @@ def bot():
     import asyncio
     import requests, bs4
     import sys
-    import ynko
-
-    ynko.func2()
+    from ynko.ynko import ynko
 
     # 自分のBotのアクセストークンに置き換えてください
     # 読込むファイルのパスを宣言する
