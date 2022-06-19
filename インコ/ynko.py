@@ -1,3 +1,16 @@
+import os
+print(os.getcwd())
+import subprocess
+import os
+print(os.getcwd())
+import time
+import discord
+import random
+import asyncio
+import requests, bs4
+import sys
+from ynko.ynko import ynko
+
 def func2():
     print('puripuri')
     # Script2.py executed as script
