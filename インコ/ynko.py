@@ -15,7 +15,7 @@ def bot():
     import asyncio
     import requests, bs4
     import sys
-    from ynko.ynko import ynko
+    import ynko
 
     ynko.func2()
 
