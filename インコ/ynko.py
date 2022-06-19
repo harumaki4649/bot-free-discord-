@@ -1,20 +1,8 @@
-import os
-print(os.getcwd())
-import subprocess
-import os
-print(os.getcwd())
-import time
-import discord
-import random
-import asyncio
-import requests, bs4
-import sys
-from ynko.ynko import ynko
-
 def func2():
     print('puripuri')
     # Script2.py executed as script
     # do something
+
 
 def bot():
     import os
@@ -28,7 +16,6 @@ def bot():
     import asyncio
     import requests, bs4
     import sys
-    from ynko.ynko import ynko
 
     # 自分のBotのアクセストークンに置き換えてください
     # 読込むファイルのパスを宣言する
@@ -1109,4 +1096,3 @@ def bot():
 
     # Botの起動とDiscordサーバーへの接続
     client.run(data)
-
